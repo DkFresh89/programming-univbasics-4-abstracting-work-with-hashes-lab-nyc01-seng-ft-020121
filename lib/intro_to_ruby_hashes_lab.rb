@@ -7,7 +7,10 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
- hash[key] #!= nil
+ if key == nil 
+   return nil 
+ else 
+ hash[key] 
     
 end
 
