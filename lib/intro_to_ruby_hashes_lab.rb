@@ -11,7 +11,7 @@ def read_from_hash(hash, key)
    return nil 
  else 
  hash[key] 
-    
+ end    
 end
 
 def update_counting_hash(hash, key)
